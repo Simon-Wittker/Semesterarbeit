@@ -1,4 +1,6 @@
-# Meta-Daten-Management-App (MAM)
+# Semesterarbeit 
+
+## Gegenstand: Meta-Daten-Management-App (MAM)
 
 ## Projektbeschreibung
 Diese Applikation ist eine Semesterarbeit aus meinem Informatikstudium. Ziel des Projekts war es, eine vollständige Softwareanwendung von Anfang bis Ende zu planen, zu entwerfen und umzusetzen. Der Fokus lag auf drei zentralen Bereichen:
@@ -64,6 +66,7 @@ Das Projekt umfasst die Entwicklung einer **Meta-Daten-Management-App (MAM)** mi
 
 ### Hinweise
 - Die Funktion zur Speicherung der Daten in einem lokalen Ordner erfordert eine Anpassung des Codes. Der entsprechende Ordner ist jedoch bereits im Repository enthalten.
+- **Pfadanpassung für lokale Speicherung:** Falls die Metadaten in einem lokalen Ordner gespeichert werden sollen, muss der Pfad dazu in der Datei `src/main/java/project/simtv_mam_app/gui_model/Model.java` in **Zeile 38** geändert werden. Der Ordner mit dem Namen "Lokale Ordner" steht im Repository bereit, um dafür genutzt zu werden. Dort befinden sich auch einige Beispiel-Metadatenfiles.
 - Die ursprünglich verwendete Online-Datenbank (MongoDB) ist nicht mehr verfügbar. Die Datenbankfunktionen können durch eine andere Datenbank oder lokale Speicherung ersetzt werden.
 
 ## Lizenz
