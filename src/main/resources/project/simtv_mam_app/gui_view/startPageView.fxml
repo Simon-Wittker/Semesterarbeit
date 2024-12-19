@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.simtv_mam_app.gui_controller.StartPageController">
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="600.0" stroke="#ed7d31" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="15.0" width="900.0" />
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ed7d31" height="100.0" layoutX="80.0" layoutY="90.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="740.0" />
+   <Label layoutX="143.0" layoutY="114.0" text="Willkommen bei" textFill="WHITE" AnchorPane.leftAnchor="143.0">
+      <font>
+         <Font size="48.0" />
+      </font>
+   </Label>
+   <ImageView fitHeight="93.0" fitWidth="309.0" layoutX="503.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="88.0">
+      <Image url="@../images/Logo_meins.png" />
+   </ImageView>
+   <Button layoutX="643.0" layoutY="239.0" mnemonicParsing="false" onAction="#clickOnSearchButton" prefHeight="40.0" prefWidth="158.0" text="Suche starten" textAlignment="CENTER" wrapText="true" AnchorPane.rightAnchor="99.0">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Button>
+   <Button fx:id="closeButton" layoutX="395.0" layoutY="458.0" mnemonicParsing="false" onAction="#clickOnCloseButton" prefHeight="80.0" prefWidth="110.0" text="Programm beenden" textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="395.0" AnchorPane.rightAnchor="395.0">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Button>
+   <Button layoutX="335.0" layoutY="384.0" mnemonicParsing="false" onAction="#clickOnAddNewDataButton" prefHeight="40.0" prefWidth="231.0" text="Neue Metadaten hinzufügen" textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="335.0">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Button>
+   <TextField fx:id="searchInputField" layoutX="259.0" layoutY="246.0" prefHeight="26.0" prefWidth="382.0" promptText="neuer Suchbegriff eingeben">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </TextField>
+   <ChoiceBox fx:id="attributeChoiceBox" layoutX="99.0" layoutY="246.0" prefHeight="26.0" prefWidth="158.0" />
+   <RadioButton fx:id="searchInDBRadioButton" layoutX="360.0" layoutY="302.0" mnemonicParsing="false" onAction="#clickOnSearchInDBRadioButton" text="DatenBank">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </RadioButton>
+   <RadioButton fx:id="searchInFolderRadioButton" layoutX="470.0" layoutY="302.0" mnemonicParsing="false" onAction="#clickOnSearchInFolderRadioButton" text="Lokaler Ordner">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </RadioButton>
+   <Label layoutX="260.0" layoutY="302.0" text="Suchen in:">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label fx:id="dbDetailsLabel" layoutX="260.0" layoutY="339.0" text="Datenset-Namen:" visible="false">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label fx:id="folderDetailsLabel" layoutX="205.0" layoutY="339.0" text="Ordner auf dem USB-Stick:" visible="false">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label fx:id="searchInLocationDetailLabel" layoutX="372.0" layoutY="339.0" prefHeight="18.0" prefWidth="425.0">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label fx:id="searchAttributHintLabel" layoutX="102.0" layoutY="224.0" text="Such-Attribut auswählen:" visible="false">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+</AnchorPane>
