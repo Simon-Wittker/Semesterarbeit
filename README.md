@@ -67,8 +67,13 @@ Das Projekt umfasst die Entwicklung einer **Meta-Daten-Management-App (MAM)** mi
 - Die ursprünglich verwendete Online-Datenbank (MongoDB) ist nicht mehr verfügbar. Die Datenbankfunktionen können durch eine andere Datenbank oder lokale Speicherung ersetzt werden.
 
 ## Lizenz
-Dieses Projekt steht unter der [MIT-Lizenz](LICENSE).
 
----
-Falls du Fragen oder Verbesserungsvorschläge hast, freue ich mich über dein Feedback!
+Dieses Projekt ist urheberrechtlich geschützt (All Rights Reserved).
+
+Der Quellcode darf nur zur Ansicht oder zu Testzwecken verwendet werden.
+
+Eine Nutzung, Modifikation oder Weitergabe des Codes oder Teile davon ist ohne ausdrückliche schriftliche Genehmigung des Urhebers nicht erlaubt.
+
+Falls du Interesse an einer Lizenzierung oder weiteren Informationen hast, kontaktiere mich bitte.
+
 
