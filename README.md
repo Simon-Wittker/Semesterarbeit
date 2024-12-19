@@ -43,8 +43,8 @@ Das Projekt umfasst die Entwicklung einer **Meta-Daten-Management-App (MAM)** mi
 1. **Repository klonen**
    Klone dieses Repository mit folgendem Befehl:
    ```bash
-   git clone <REPOSITORY-URL>
-   cd <REPOSITORY-NAME>
+   git clone https://github.com/Simon-Wittker/Semesterarbeit
+   cd Semesterarbeit
    ```
 
 2. **Abhängigkeiten installieren**
