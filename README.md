@@ -70,9 +70,8 @@ Das Projekt umfasst die Entwicklung einer **Meta-Daten-Management-App (MAM)** mi
 
 Dieses Projekt ist urheberrechtlich geschützt (All Rights Reserved).
 
-Der Quellcode darf nur zur Ansicht oder zu Testzwecken verwendet werden.
-
-Eine Nutzung, Modifikation oder Weitergabe des Codes oder Teile davon ist ohne ausdrückliche schriftliche Genehmigung des Urhebers nicht erlaubt.
+- Der Quellcode darf nur zur Ansicht oder zu Testzwecken verwendet werden.
+- Eine Nutzung, Modifikation oder Weitergabe des Codes oder Teile davon ist ohne ausdrückliche schriftliche Genehmigung des Urhebers nicht erlaubt.
 
 Falls du Interesse an einer Lizenzierung oder weiteren Informationen hast, kontaktiere mich bitte.
 
