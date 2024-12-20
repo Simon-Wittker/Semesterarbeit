@@ -1,6 +1,6 @@
 # Semesterarbeit 
 
-## Gegenstand: Meta-Daten-Management-App (MAM)
+**Gegenstand: Meta-Daten-Management-App (MAM)**
 
 ## Projektbeschreibung
 Diese Applikation ist eine Semesterarbeit aus meinem Informatikstudium. Ziel des Projekts war es, eine vollständige Softwareanwendung von Anfang bis Ende zu planen, zu entwerfen und umzusetzen. Der Fokus lag auf drei zentralen Bereichen:
