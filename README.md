@@ -18,7 +18,7 @@ Das Projekt umfasst die Entwicklung einer **Meta-Daten-Management-App (MAM)** mi
 
 ## Technologien
 - **Programmiersprache**: Java 17
-- **Build-Tool**: Maven
+- **Build-Tool**: Maven 3.8.1
 - **GUI**: JavaFXML
 - **Datenbank**: MongoDB (nicht mehr online)
 
