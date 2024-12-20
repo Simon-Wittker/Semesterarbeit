@@ -59,10 +59,17 @@ Das Projekt umfasst die Entwicklung einer **Meta-Daten-Management-App (MAM)** mi
    src/main/java/project/simtv_mam_app/Start.java
    ```
 
-### Hinweise
-- Die Funktion zur Speicherung der Daten in einem lokalen Ordner erfordert eine Anpassung des Codes. Der entsprechende Ordner ist jedoch bereits im Repository enthalten.
-- **Pfadanpassung für lokale Speicherung:** Falls die Metadaten in einem lokalen Ordner gespeichert werden sollen, muss der Pfad dazu in der Datei `src/main/java/project/simtv_mam_app/gui_model/Model.java` in **Zeile 38** geändert werden. Der Ordner mit dem Namen "Lokale Ordner" steht im Repository bereit, um dafür genutzt zu werden. Dort befinden sich auch einige Beispiel-Metadatenfiles.
-- Die ursprünglich verwendete Online-Datenbank (MongoDB) ist nicht mehr verfügbar. Die Datenbankfunktionen können durch eine andere Datenbank oder lokale Speicherung ersetzt werden.
+### Hinweise zur Nutzung
+- Um die Metadaten in dem lokalen Ordner zu speichern, muss der Speicherpfad im Code angepasst werden. Der Ordner mit dem Namen "Lokale Ordner" befindet sich bereits im Repository und enthält einige Beispiel-Metadatenfiles, die für Tests verwendet werden können.
+***Pfad anpassen im Code***
+- Öffne die Datei: src/main/java/project/simtv_mam_app/gui_model/Model.java.
+- Navigiere zu Zeile 38.
+- Ersetze den bestehenden Pfad durch den gewünschten Pfad zu deinem lokalen Ordner.
+- Beispiel: ```private final String folderFilePath = "/Volumes/SIMTV MAM/Lokaler Ordner";```
+
+***Datenbankersatz***
+- Die ursprünglich verwendete Online-Datenbank (MongoDB) steht nicht mehr zur Verfügung.
+
 
 ## Lizenz
 
