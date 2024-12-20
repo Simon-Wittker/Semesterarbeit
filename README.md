@@ -53,12 +53,6 @@ Das Projekt umfasst die Entwicklung einer **Meta-Daten-Management-App (MAM)** mi
    mvn clean install
    ```
 
-3. **Starten der Applikation**
-   Führe die Datei `Start.java` aus, um die Applikation zu starten. Die Datei befindet sich im Verzeichnis:
-   ```plaintext
-   src/main/java/project/simtv_mam_app/Start.java
-   ```
-
 ### Hinweise zur Nutzung
 - Um die Metadaten in dem lokalen Ordner zu speichern, muss der Speicherpfad im Code angepasst werden. Der Ordner mit dem Namen "Lokale Ordner" befindet sich bereits im Repository und enthält einige Beispiel-Metadatenfiles, die für Tests verwendet werden können.
 
@@ -71,7 +65,11 @@ Das Projekt umfasst die Entwicklung einer **Meta-Daten-Management-App (MAM)** mi
 **Datenbankersatz**
 - Die ursprünglich verwendete Online-Datenbank (MongoDB) steht nicht mehr zur Verfügung.
 
-
+### Starten der Applikation
+   Führe die Datei `Start.java` aus, um die Applikation zu starten. Die Datei befindet sich im Verzeichnis:
+   ```plaintext
+   src/main/java/project/simtv_mam_app/Start.java
+   ```
 ## Lizenz
 
 Dieses Projekt ist urheberrechtlich geschützt (All Rights Reserved).
