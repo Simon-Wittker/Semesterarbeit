@@ -59,11 +59,6 @@ Das Projekt umfasst die Entwicklung einer **Meta-Daten-Management-App (MAM)** mi
    src/main/java/project/simtv_mam_app/Start.java
    ```
 
-   Du kannst die Anwendung über deine IDE starten (z. B. IntelliJ IDEA oder Eclipse) oder mit Maven:
-   ```bash
-   mvn exec:java -Dexec.mainClass="project.simtv_mam_app.Start"
-   ```
-
 ### Hinweise
 - Die Funktion zur Speicherung der Daten in einem lokalen Ordner erfordert eine Anpassung des Codes. Der entsprechende Ordner ist jedoch bereits im Repository enthalten.
 - **Pfadanpassung für lokale Speicherung:** Falls die Metadaten in einem lokalen Ordner gespeichert werden sollen, muss der Pfad dazu in der Datei `src/main/java/project/simtv_mam_app/gui_model/Model.java` in **Zeile 38** geändert werden. Der Ordner mit dem Namen "Lokale Ordner" steht im Repository bereit, um dafür genutzt zu werden. Dort befinden sich auch einige Beispiel-Metadatenfiles.
